@@ -1,0 +1,54 @@
+/**
+ * These styles are the absolute minimum to make the spellchecker work.
+ */
+
+div.dokuwiki div#spell__suggest {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  z-index: 2;
+}
+
+div.dokuwiki div#spell__result {
+  display:none;
+  font-family:monospace;
+  overflow: auto;
+  z-index: 1;
+}
+
+
+/**
+ * Additional styles matching the default template
+ */
+
+div.dokuwiki a.spell_error {
+  color: #f00;
+  text-decoration: underline;
+}
+
+div.dokuwiki div#spell__suggest {
+  background-color: __background__;
+  padding: 2px;
+  border: 1px solid __text__;
+  font-size: 80%;
+  display: none;
+}
+
+div.dokuwiki div#spell__result {
+  border: 1px solid __border__;
+  color: __text__;
+  font-size: 14px;
+  padding: 3px;
+  background-color: __background_other__;
+  display: none;
+}
+
+div.dokuwiki span.spell_noerr {
+  color: #093;
+}
+
+div.dokuwiki span.spell_wait {
+  color: #06c;
+}
+

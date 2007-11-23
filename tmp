@@ -1,0 +1,11 @@
+// load spell checker
+            if($conf['spellchecker']){
+                js_runonstart("ajax_spell.init('".
+                               js_escape($lang['spell_start'])."','".
+                               js_escape($lang['spell_stop'])."','".
+                               js_escape($lang['spell_wait'])."','".
+                               js_escape($lang['spell_noerr'])."','".
+                               js_escape($lang['spell_nosug'])."','".
+                               js_escape($lang['spell_change'])."')");
+            }
+
