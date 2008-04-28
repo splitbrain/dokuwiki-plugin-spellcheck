@@ -22,11 +22,6 @@ div.dokuwiki div#spell__result {
  * Additional styles matching the default template
  */
 
-div.dokuwiki a.spell_error {
-  color: #f00;
-  text-decoration: underline;
-}
-
 div.dokuwiki div#spell__suggest {
   background-color: __background__;
   padding: 2px;
@@ -44,11 +39,16 @@ div.dokuwiki div#spell__result {
   display: none;
 }
 
-div.dokuwiki span.spell_noerr {
+div.dokuwiki div#spell__result a.spell_error {
+  color: #f00;
+  text-decoration: underline;
+}
+
+div.dokuwiki div#spell__result span.spell_noerr {
   color: #093;
 }
 
-div.dokuwiki span.spell_wait {
+div.dokuwiki div#spell__result span.spell_wait {
   color: #06c;
 }
 
