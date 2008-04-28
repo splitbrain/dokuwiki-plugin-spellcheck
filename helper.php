@@ -17,7 +17,7 @@ class helper_plugin_spellcheck extends DokuWiki_Plugin {
         return array(
             'author' => 'Andreas Gohr',
             'email'  => 'andi@splitbrain.org',
-            'date'   => '2007-11-23',
+            'date'   => '2008-04-28',
             'name'   => 'Spell Checker Plugin',
             'desc'   => 'Sends the editor text to an aspell backend service to check for spelling errors',
             'url'    => 'http://wiki.splitbrain.org/plugin:spellcheck',
