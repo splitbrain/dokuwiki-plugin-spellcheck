@@ -1,7 +1,7 @@
 base    spellcheck
 author  Andreas Gohr
 email   andi@splitbrain.org
-date    2016-02-03
+date    2018-03-06
 name    Spell Checker Plugin
 desc    Sends the editor text to an aspell backend service to check for spelling errors
 url     http://www.dokuwiki.org/plugin:spellcheck
